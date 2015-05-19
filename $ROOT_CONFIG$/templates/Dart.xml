@@ -25,4 +25,11 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="exeq" value="expect($actual$, equals($expected$));" description="Expect equals" toReformat="false" toShortenFQNames="true">
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="expected" expression="" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
