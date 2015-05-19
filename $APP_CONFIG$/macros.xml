@@ -1,0 +1,24 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Create part class from path in library file">
+      <action id="EditorRight" />
+      <typing text-keycode="46:0;68:0;65:0;82:0;84:0;44:1">.dart;</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLineStartWithSelection" />
+      <typing text-keycode="92:0">'</typing>
+      <action id="EditorLineStart" />
+      <typing text-keycode="80:0;65:0;82:0;84:0;32:0">part&amp;#x20;</typing>
+      <action id="NewElement" />
+      <typing text-keycode="67:1">C</typing>
+      <shortuct text="BACK_SPACE" />
+      <typing text-keycode="68:1;65:0;82:0;84:0;32:0;67:1;76:0;65:0;83:0;83:0">Dart&amp;#x20;Class</typing>
+      <shortuct text="ENTER" />
+      <action id="PasteMultiple" />
+      <typing text-keycode="49:0">1</typing>
+      <shortuct text="TAB" />
+      <action id="PasteMultiple" />
+      <typing text-keycode="50:0">2</typing>
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7f91fa3-e418-4b95-bcf2-d49abadc1a42" name="erikabroman.se" url="http://localhost:1337">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
