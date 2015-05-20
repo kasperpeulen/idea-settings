@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="14">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="bridge" type="Dart" />
       <mapping ext="map" type="JSON" />
       <mapping pattern="glamour" type="JavaScript" />
       <mapping pattern="funnel-include" type="JavaScript" />
