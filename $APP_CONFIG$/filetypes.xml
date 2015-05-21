@@ -18,6 +18,7 @@
       <mapping pattern=".idea.example/.name" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="bridge" type="PLAIN_TEXT" />
       <mapping pattern="galala" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="Install-Package" type="PLAIN_TEXT" />
