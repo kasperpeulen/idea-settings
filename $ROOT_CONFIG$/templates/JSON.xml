@@ -19,11 +19,11 @@
       <option name="JS_EXPRESSION" value="false" />
       <option name="JS_STATEMENT" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="HAML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="PHP" value="false" />
       <option name="PHP Comment" value="false" />
       <option name="PHP String Literal" value="false" />
-      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
