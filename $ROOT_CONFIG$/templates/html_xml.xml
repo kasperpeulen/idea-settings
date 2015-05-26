@@ -1,0 +1,14 @@
+<templateSet group="html/xml">
+  <template name="styles" value="&lt;link rel='stylesheet' href='/styles.css'&gt;" description="import styles.css" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="scripts" value="&lt;script src='/scripts.js'&gt;&lt;/script&gt;" description="import scripts.js" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
