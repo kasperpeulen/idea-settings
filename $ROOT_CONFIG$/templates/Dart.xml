@@ -32,4 +32,11 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="epack" value="export 'package:$library$/$file$.dart';" description="export package library" toReformat="false" toShortenFQNames="true">
+    <variable name="library" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="file" expression="" defaultValue="library" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -22,7 +22,7 @@
         <property name="options.lastSelected" value="configurable.group.appearance" />
         <property name="options.splitter.main.proportions" value="0.3" />
         <property name="options.splitter.details.proportions" value="0.2" />
-        <property name="settings.editor.selected.configurable" value="Template Data Languages" />
+        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
         <property name="HbShouldOpenHtmlAsHb" value="" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
       </component>
