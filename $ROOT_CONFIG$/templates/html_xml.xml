@@ -11,4 +11,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="viewport" value="&lt;meta name='viewport' content='width=device-width, initial-scale=1'&gt;" description="Viewport meta tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
