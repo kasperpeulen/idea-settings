@@ -7,12 +7,19 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
+  <action id="Dart.DartStyle">
+    <keyboard-shortcut first-keystroke="meta alt L" />
+  </action>
   <action id="DatabaseView.CopyAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift meta alt L" />
+  </action>
   <action id="SendEOF" />
+  <action id="ShowReformatFileDialog" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta D" />
   </action>
