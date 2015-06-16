@@ -13,6 +13,7 @@
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
   <action id="SendEOF" />
+  <action id="ShowReformatFileDialog" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta D" />
   </action>
