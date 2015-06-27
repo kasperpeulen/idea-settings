@@ -1,7 +1,6 @@
 <scheme name="Tonic" version="141" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.8" />
-  <option name="EDITOR_FONT_SIZE" value="17" />
-  <option name="CONSOLE_LINE_SPACING" value="1.4" />
+  <option name="LINE_SPACING" value="1.4" />
+  <option name="EDITOR_FONT_SIZE" value="10" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="292d38" />
@@ -63,6 +62,11 @@
       <value>
         <option name="FOREGROUND" value="c57633" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="BASH.INTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="b0c95" />
       </value>
     </option>
     <option name="BNF_KEYWORD">
@@ -251,19 +255,6 @@
         <option name="FOREGROUND" value="ef6e44" />
       </value>
     </option>
-    <option name="CSS.URL">
-      <value>
-        <option name="FOREGROUND" value="8ca9cd" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="8000" />
@@ -322,9 +313,6 @@
         <option name="FOREGROUND" value="b8cd44" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="DEFAULT_COMMA">
-      <value />
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -403,9 +391,6 @@
       <value>
         <option name="FOREGROUND" value="ef6e44" />
       </value>
-    </option>
-    <option name="DEFAULT_SEMICOLON">
-      <value />
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
@@ -898,6 +883,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="REST.BOLD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="REST.FIXED">
       <value>
         <option name="BACKGROUND" value="2a2f31" />
@@ -913,6 +903,11 @@
         <option name="BACKGROUND" value="2a2f31" />
       </value>
     </option>
+    <option name="REST.ITALIC">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
@@ -922,6 +917,12 @@
       <value>
         <option name="BACKGROUND" value="2a2f31" />
         <option name="ERROR_STRIPE_COLOR" value="246e00" />
+      </value>
+    </option>
+    <option name="SQL_COLUMN">
+      <value>
+        <option name="FOREGROUND" value="d0d0ff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="SQL_KEYWORD">
@@ -1097,6 +1098,11 @@
       <value>
         <option name="FOREGROUND" value="4a5356" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="XML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="6d9cbe" />
       </value>
     </option>
     <option name="XML_PROLOGUE">
