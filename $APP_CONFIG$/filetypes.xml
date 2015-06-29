@@ -25,7 +25,6 @@
       <mapping pattern="Install-Package" type="PLAIN_TEXT" />
       <mapping pattern="restart" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
-      <mapping ext="jade" type="PLAIN_TEXT" />
       <mapping pattern="watch" type="Bash" />
     </extensionMap>
   </component>

@@ -883,11 +883,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="REST.BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="REST.FIXED">
       <value>
         <option name="BACKGROUND" value="2a2f31" />
@@ -901,11 +896,6 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="BACKGROUND" value="2a2f31" />
-      </value>
-    </option>
-    <option name="REST.ITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="SASS_MIXIN">
