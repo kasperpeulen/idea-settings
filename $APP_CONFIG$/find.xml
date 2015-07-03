@@ -1,9 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'spine'" />
-    <option name="defaultScopeName" value="Module 'spine'" />
+    <option name="customScope" value="File '/Users/emilpersson/Code/dart-bridge/dart-bridge.github.io/google-code-prettify/lang-dart.js'" />
+    <option name="defaultScopeName" value="File '/Users/emilpersson/Code/dart-bridge/dart-bridge.github.io/google-code-prettify/lang-dart.js'" />
     <option name="localCaseSensitive" value="true" />
+    <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Module 'spine'" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="File '/Users/emilpersson/Code/dart-bridge/dart-bridge.github.io/google-code-prettify/lang-dart.js'" />
   </component>
 </application>
