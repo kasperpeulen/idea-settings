@@ -214,11 +214,6 @@
         <option name="FOREGROUND" value="e08c" />
       </value>
     </option>
-    <option name="CSS.COMMENT">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
     <option name="CSS.FUNCTION">
       <value>
         <option name="FOREGROUND" value="e08c" />
@@ -255,19 +250,9 @@
         <option name="FOREGROUND" value="dee3ec" />
       </value>
     </option>
-    <option name="CSS.STRING">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
     <option name="CSS.TAG_NAME">
       <value>
         <option name="FOREGROUND" value="9d8262" />
-      </value>
-    </option>
-    <option name="CSS.URL">
-      <value>
-        <option name="FOREGROUND" value="287bde" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
