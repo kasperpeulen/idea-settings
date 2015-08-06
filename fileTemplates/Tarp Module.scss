@@ -1,0 +1,10 @@
+#set( $package = $PROJECT_NAME.replace("tarp-", "") )
+// Recommended implementation:
+// $Recommended_implementation { @include tarp-use('$package.$NAME') }
+
+@import 'config';
+
+@include tarp-module('$package.$NAME')
+{
+    
+}

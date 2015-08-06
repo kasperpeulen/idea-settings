@@ -1,0 +1,1 @@
+library #if($Parent_library)$Parent_library.#end$NAME;
