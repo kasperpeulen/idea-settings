@@ -1,0 +1,21 @@
+<templateSet group="JavaScript">
+  <template name="class5" value="var $NAME$ = (function(){&#10;  function constructor() {&#10;  }&#10;  &#10;  $END$&#10;  &#10;  return constructor;&#10;})();" description="ES5 class declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="ClassName" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="method" value="constructor.prototype.$NAME$ = function($ARGS$) {&#10;  $END$&#10;}" description="ES5 method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
