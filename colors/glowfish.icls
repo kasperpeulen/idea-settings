@@ -629,9 +629,6 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="Implicit conversion" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Implicit conversion first part" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Implicit conversion second part" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Instance field">
       <value>
         <option name="FOREGROUND" value="db784d" />
@@ -642,7 +639,6 @@
         <option name="FOREGROUND" value="db784d" />
       </value>
     </option>
-    <option name="Interpolated String Injection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JAVA_COMMA">
       <value>
         <option name="FOREGROUND" value="d65940" />
@@ -961,9 +957,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="Scala Immutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Scala Mutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Standart Java Collection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Static method access">
       <value>
         <option name="FOREGROUND" value="db784d" />

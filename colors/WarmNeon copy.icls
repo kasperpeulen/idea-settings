@@ -608,9 +608,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="Implicit conversion" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Implicit conversion first part" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Implicit conversion second part" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Instance field">
       <value>
         <option name="FOREGROUND" value="c0c0c0" />
@@ -618,7 +615,6 @@
       </value>
     </option>
     <option name="Instance property reference ID" baseAttributes="INSTANCE_FIELD_ATTRIBUTES" />
-    <option name="Interpolated String Injection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JAVA_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="b44141" />
@@ -1215,9 +1211,6 @@
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
-    <option name="Scala Immutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Scala Mutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Standart Java Collection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Static field">
       <value>
         <option name="FOREGROUND" value="c0c0c0" />
