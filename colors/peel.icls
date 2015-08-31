@@ -1,10 +1,15 @@
-<scheme name="Peel" version="141" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.9" />
-  <option name="EDITOR_FONT_SIZE" value="17" />
+<scheme name="Peel" version="142" parent_scheme="Default">
+  <option name="LINE_SPACING" value="1.4" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Inconsolata" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </font>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="10" />
-  <option name="CONSOLE_LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="292d38" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -44,6 +49,7 @@
     <option name="WHITESPACES" value="505050" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
@@ -90,7 +96,6 @@
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="d3643b" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
@@ -99,6 +104,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
         <option name="FOREGROUND" value="dee3ec" />
@@ -114,9 +120,9 @@
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="536c46" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="CONSOLE_BLACK_OUTPUT" baseAttributes="CONSOLE_NORMAL_OUTPUT" />
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="7eaef1" />
@@ -137,6 +143,7 @@
         <option name="FOREGROUND" value="33cccc" />
       </value>
     </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT" baseAttributes="CONSOLE_GRAY_OUTPUT" />
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff6b68" />
@@ -292,6 +299,8 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f4d370" />
@@ -307,6 +316,7 @@
         <option name="FOREGROUND" value="4646f1" />
       </value>
     </option>
+    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="585146" />
@@ -323,9 +333,6 @@
         <option name="FOREGROUND" value="d3643b" />
         <option name="FONT_TYPE" value="2" />
       </value>
-    </option>
-    <option name="DEFAULT_COMMA">
-      <value />
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -348,6 +355,7 @@
         <option name="FOREGROUND" value="827766" />
       </value>
     </option>
+    <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="94c7b6" />
@@ -385,6 +393,7 @@
         <option name="FOREGROUND" value="94c7b6" />
       </value>
     </option>
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="585146" />
@@ -405,9 +414,7 @@
         <option name="FOREGROUND" value="94c7b6" />
       </value>
     </option>
-    <option name="DEFAULT_SEMICOLON">
-      <value />
-    </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="d3643b" />
@@ -423,6 +430,7 @@
         <option name="FOREGROUND" value="f4d370" />
       </value>
     </option>
+    <option name="DEFAULT_TAG" baseAttributes="TEXT" />
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
         <option name="FOREGROUND" value="94c7b6" />
@@ -484,9 +492,9 @@
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="9373a5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -520,6 +528,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING" />
+    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="GROOVY_KEYWORD">
       <value>
         <option name="FOREGROUND" value="94c7b6" />
@@ -609,6 +620,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="23201c" />
@@ -623,9 +635,11 @@
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="9373a5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="Implicit conversion" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="Implicit conversion first part" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="Implicit conversion second part" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Instance field">
       <value>
         <option name="FOREGROUND" value="d3643b" />
@@ -636,6 +650,7 @@
         <option name="FOREGROUND" value="d3643b" />
       </value>
     </option>
+    <option name="Interpolated String Injection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JAVA_COMMA">
       <value>
         <option name="FOREGROUND" value="94c7b6" />
@@ -674,15 +689,19 @@
     <option name="JFLEX_MACROS_REF">
       <value>
         <option name="FOREGROUND" value="d3643b" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="EFFECT_COLOR" value="dee3ec" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSP_DIRECTIVE_NAME">
       <value>
         <option name="FOREGROUND" value="94c7b6" />
@@ -697,7 +716,6 @@
     <option name="LABEL">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
@@ -732,12 +750,6 @@
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
-        <option name="EFFECT_TYPE" value="-1" />
-      </value>
-    </option>
-    <option name="MACRO_PARAMETER">
-      <value>
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -748,7 +760,6 @@
     <option name="MESSAGE_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="c4b3a3" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
@@ -756,6 +767,7 @@
         <option name="FOREGROUND" value="f4d370" />
       </value>
     </option>
+    <option name="Map key" baseAttributes="JAVA_STRING" />
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -776,7 +788,6 @@
     <option name="OC.DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="80b000" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC.KEYWORD">
@@ -792,7 +803,6 @@
     <option name="OC.PROPERTY">
       <value>
         <option name="FOREGROUND" value="cdbcac" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC.SELFSUPERTHIS">
@@ -808,7 +818,6 @@
     <option name="OC.STRUCT_FIELD">
       <value>
         <option name="FOREGROUND" value="9373a5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
@@ -870,7 +879,6 @@
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="219598" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REGEXP.ESC_CHARACTER">
@@ -961,6 +969,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="Scala Immutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="Scala Mutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="Standart Java Collection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Static method access">
       <value>
         <option name="FOREGROUND" value="d3643b" />
@@ -1013,7 +1024,6 @@
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c7c8f5" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
