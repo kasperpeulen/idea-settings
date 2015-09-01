@@ -25,7 +25,6 @@
       <option name="TypeScript" value="true" />
       <option name="CoffeeScript" value="true" />
       <option name="HAML" value="true" />
-      <option name="DART" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>

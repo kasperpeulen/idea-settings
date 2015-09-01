@@ -2,41 +2,29 @@
   <template name="@test" value="@test&#10;it_$description$($injectMocks$) async {&#10;    $SELECTION$&#10;}" description="dartspec test method" toReformat="true" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="injectMocks" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
+    <context />
   </template>
   <template name="idart" value="import 'dart:$library$';" description="import core library" toReformat="false" toShortenFQNames="true">
     <variable name="library" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
+    <context />
   </template>
   <template name="ipack" value="import 'package:$library$/$file$.dart';" description="import package library" toReformat="false" toShortenFQNames="true">
     <variable name="library" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="file" expression="library" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
+    <context />
   </template>
   <template name="part" value="part '$PATH$.dart';" description="part directive" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
+    <context />
   </template>
   <template name="exeq" value="expect($actual$, equals($expected$));" description="Expect equals" toReformat="false" toShortenFQNames="true">
     <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="expected" expression="" defaultValue="true" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
+    <context />
   </template>
   <template name="epack" value="export 'package:$library$/$file$.dart';" description="export package library" toReformat="false" toShortenFQNames="true">
     <variable name="library" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="file" expression="" defaultValue="library" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
