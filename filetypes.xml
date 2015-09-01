@@ -5,16 +5,16 @@
       <mapping pattern="bridge" type="Dart" />
       <mapping ext="btl" type="HTML" />
       <mapping ext="map" type="JSON" />
+      <mapping pattern="funnel-install" type="JavaScript" />
       <mapping pattern="bin/funnel" type="JavaScript" />
       <mapping pattern="clamour" type="JavaScript" />
       <mapping pattern="box-hej" type="JavaScript" />
       <mapping pattern="box-serve" type="JavaScript" />
-      <mapping pattern="funnel-install" type="JavaScript" />
+      <mapping pattern="faucet" type="JavaScript" />
       <mapping pattern="box-routes" type="JavaScript" />
       <mapping pattern="glamour" type="JavaScript" />
       <mapping pattern="funnel-include" type="JavaScript" />
       <mapping pattern="funnel" type="JavaScript" />
-      <mapping pattern="faucet" type="JavaScript" />
       <mapping pattern="tarplate" type="PHP" />
       <mapping pattern="typeunit" type="PLAIN_TEXT" />
       <mapping pattern=".idea.example/.name" type="PLAIN_TEXT" />
