@@ -114,7 +114,6 @@
         <option name="FOREGROUND" value="536c46" />
       </value>
     </option>
-    <option name="CONSOLE_BLACK_OUTPUT" baseAttributes="CONSOLE_NORMAL_OUTPUT" />
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="7eaef1" />
@@ -135,7 +134,6 @@
         <option name="FOREGROUND" value="33cccc" />
       </value>
     </option>
-    <option name="CONSOLE_DARKGRAY_OUTPUT" baseAttributes="CONSOLE_GRAY_OUTPUT" />
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff6b68" />
@@ -291,8 +289,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f8bb39" />
@@ -520,29 +516,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING" />
-    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="GROOVY_KEYWORD">
       <value>
         <option name="FOREGROUND" value="fc803d" />
-      </value>
-    </option>
-    <option name="GString">
-      <value>
-        <option name="FOREGROUND" value="6a8759" />
-      </value>
-    </option>
-    <option name="Groovydoc comment">
-      <value>
-        <option name="FOREGROUND" value="629755" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="Groovydoc tag">
-      <value>
-        <option name="FOREGROUND" value="7cb36f" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="HAML_RUBY_CODE">
@@ -629,9 +605,6 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="Implicit conversion" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Implicit conversion first part" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Implicit conversion second part" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Instance field">
       <value>
         <option name="FOREGROUND" value="f23a3a" />
@@ -642,7 +615,6 @@
         <option name="FOREGROUND" value="f23a3a" />
       </value>
     </option>
-    <option name="Interpolated String Injection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JAVA_COMMA">
       <value>
         <option name="FOREGROUND" value="fc803d" />
@@ -759,7 +731,6 @@
         <option name="FOREGROUND" value="f8bb39" />
       </value>
     </option>
-    <option name="Map key" baseAttributes="JAVA_STRING" />
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -961,9 +932,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="Scala Immutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Scala Mutable Collection" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="Standart Java Collection" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="Static method access">
       <value>
         <option name="FOREGROUND" value="f23a3a" />
