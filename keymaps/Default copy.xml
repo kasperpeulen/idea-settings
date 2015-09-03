@@ -10,8 +10,17 @@
   <action id="DatabaseView.CopyAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="EditorAddRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
   <action id="SendEOF" />
   <action id="ShowReformatFileDialog" />
   <action id="SplitVertically">
