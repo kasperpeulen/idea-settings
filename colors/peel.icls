@@ -640,6 +640,7 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="94c7b6" />
+        <option name="BACKGROUND" value="23201c" />
       </value>
     </option>
     <option name="JAVA_NUMBER">
