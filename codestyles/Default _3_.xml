@@ -13,11 +13,6 @@
   </option>
   <option name="HTML_ALIGN_TEXT" value="true" />
   <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="thead,tbody,tfoot" />
-  <PHPCodeStyleSettings>
-    <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
-    <option name="LOWER_CASE_NULL_CONST" value="true" />
-    <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
-  </PHPCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
