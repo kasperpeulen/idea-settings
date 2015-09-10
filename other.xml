@@ -148,6 +148,10 @@
   <component name="PhpRefactoringSettings">
     <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="protected" />
   </component>
+  <component name="PsiViewer.Settings">
+    <option name="HIGHLIGHT_COLOR" value="162 3 229 32" />
+    <option name="PLUGIN_ENABLED" value="true" />
+  </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes />
