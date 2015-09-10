@@ -152,6 +152,9 @@
     <option name="HIGHLIGHT_COLOR" value="162 3 229 32" />
     <option name="PLUGIN_ENABLED" value="true" />
   </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+  </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes />
