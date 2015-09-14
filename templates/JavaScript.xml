@@ -18,4 +18,14 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="require" value="var $VARIABLE$ = require('$MODULE$');" description="require import" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="VARIABLE" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
