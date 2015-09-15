@@ -9,9 +9,8 @@
       <display-name>Bridge HTML Variable</display-name>
       <prefix>main() {</prefix>
       <suffix>;}</suffix>
-      <value-pattern>\$\{(.*?)\}</value-pattern>
-      <place><![CDATA[xmlTag().withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
-      <apply-to-subtags />
+      <value-pattern>\$\{(.*)}</value-pattern>
+      <place><![CDATA[xmlTag().withLocalName(string().matches("*")).withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
     </injection>
     <injection language="Dart" injector-id="xml">
       <display-name>code</display-name>
@@ -20,6 +19,15 @@
     <injection language="Dart" injector-id="xml">
       <display-name>pre</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("pre")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>script</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("script")).withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="xml">
+      <display-name>style</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("style")).withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
+      <xpath-condition>lower-case(@type)='text/css'</xpath-condition>
     </injection>
   </component>
 </application>
