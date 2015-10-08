@@ -20,8 +20,15 @@
       <place><![CDATA[xmlTag().withLocalName(string().matches("<none>")).withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
     </injection>
     <injection language="Dart" injector-id="xml">
+      <display-name>Bridge HTML Attribute Value</display-name>
+      <prefix>main() async {</prefix>
+      <suffix>;}</suffix>
+      <value-pattern>\$\{(.*)}</value-pattern>
+      <place><![CDATA[xmlAttribute().withLocalName(string().matches(".+")).withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
+    </injection>
+    <injection language="Dart" injector-id="xml">
       <display-name>Bridge HTML Variable</display-name>
-      <prefix>main() {</prefix>
+      <prefix>main() async {</prefix>
       <suffix>;}</suffix>
       <value-pattern>\$\{(.*)}</value-pattern>
       <place><![CDATA[xmlTag().withLocalName(string().matches(".+")).withNamespace(string().equalTo("http://www.w3.org/1999/xhtml"))]]></place>
